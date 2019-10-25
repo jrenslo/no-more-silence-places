@@ -33,4 +33,5 @@ RUN apt-get update
 RUN apt-get install -y python3-pyqt5  
 # RUN apt-get install -y pyqt5-dev-tools
 # RUN apt-get install -y qttools5-dev-tools
+USER jovyan
 COPY Notebooks work/Notebooks
